@@ -66,7 +66,7 @@ function styles() {
 
 async function images() {
   imagecomp(
-    "app/images/src/**/*", // Берём все изображения из папки источника
+    "app/images/*", // Берём все изображения из папки источника
     "app/images/dest/", // Выгружаем оптимизированные изображения в папку назначения
     { compress_force: false, statistic: true, autoupdate: true },
     false, // Настраиваем основные параметры
