@@ -20,7 +20,7 @@
   }
 
   .bg {
-    background-image: url("../images/bg-mobile.png"),
+    background-image: url("../images/dest/bg-mobile.png"),
       linear-gradient(#1a1a1b 7033px, #fff 7033px);
   }
 
@@ -202,7 +202,7 @@
   }
 
   .autor {
-    background-image: url("../images/autor-bg-mobile.png");
+    background-image: url("../images/dest/autor-bg-mobile.png");
     background-size: 360px 1697px;
     background-position: center top;
 
@@ -320,7 +320,7 @@
 
   .help {
     width: 360px;
-    background-image: url("../images/circle-mobile.png");
+    background-image: url("../images/dest/circle-mobile.png");
     background-size: contain;
     background-position: top center;
   }
@@ -447,7 +447,7 @@
   }
 
   .choose {
-    background-image: url("../images/choose-bg-mobile.png");
+    background-image: url("../images/dest/choose-bg-mobile.png");
   }
 
   .choose .container {
@@ -521,7 +521,7 @@
   }
 
   .ac .ac-trigger::after {
-    content: url("../images/accordion-icon-closed-mini.svg") !important;
+    content: url("../images/dest/accordion-icon-closed-mini.svg") !important;
     top: 20px !important;
     right: 18px !important;
     height: 13.697px !important;
@@ -529,7 +529,7 @@
   }
 
   .ac.is-active > .ac-header .ac-trigger::after {
-    content: url("../images/accordion-icon-mini.svg") !important;
+    content: url("../images/dest/accordion-icon-mini.svg") !important;
   }
 
   .footer {

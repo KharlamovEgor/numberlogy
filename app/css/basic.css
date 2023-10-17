@@ -34,7 +34,7 @@ body {
 }
 
 .bg {
-  background-image: url("../images/bg.png");
+  background-image: url("../images/dest/bg.png");
   background-position: center top;
   background-repeat: no-repeat;
 }
@@ -361,7 +361,7 @@ h5.image-title,
 
 .autor {
   position: relative;
-  background-image: url("../images/autor-bg.png");
+  background-image: url("../images/dest/autor-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -521,7 +521,7 @@ h5.image-title,
 }
 
 .help {
-  background: url("../images/circle.png");
+  background: url("../images/dest/circle.png");
   background-repeat: no-repeat;
   background-position: -160px 4px;
   height: 991px;
@@ -765,7 +765,7 @@ h5.image-title,
 }
 
 .prices__card {
-  background: url("../images/card-bg.png");
+  background: url("../images/dest/card-bg.png");
   padding-bottom: 2.7em;
   border-radius: 10px;
   overflow: hidden;
@@ -838,7 +838,7 @@ h5.image-title,
 }
 
 .prices__card li::before {
-  content: url("../images/marker.svg");
+  content: url("../images/dest/marker.svg");
   width: 6px;
   height: 6px;
   position: absolute;
@@ -1015,7 +1015,7 @@ h5.image-title,
 }
 
 .choose {
-  background-image: url("../images/choose-bg.png");
+  background-image: url("../images/dest/choose-bg.png");
   background-position: top center;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -1103,14 +1103,14 @@ h5.image-title,
 
 .ac .ac-trigger::after {
   position: absolute;
-  content: url("../images/accordion-icon-closed.svg") !important;
+  content: url("../images/dest/accordion-icon-closed.svg") !important;
   right: 40px !important;
   width: 30px !important;
   height: 20px !important;
 }
 
 .ac.is-active > .ac-header .ac-trigger::after {
-  content: url("../images/accordion-icon.svg") !important;
+  content: url("../images/dest/accordion-icon.svg") !important;
 }
 
 .ac-panel {
@@ -1151,7 +1151,7 @@ h5.image-title,
   background-color: #1a1a1b;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url("../images/footer-bg.png");
+  background-image: url("../images/dest/footer-bg.png");
   padding-top: 120px;
   padding-bottom: 30px;
 }
