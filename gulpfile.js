@@ -91,6 +91,7 @@ function cleanimg() {
 function buildcopy() {
   return src([ // Выбираем нужные файлы
     "app/css/**/*.min.css",
+    "app/fonts/*",
     "app/js/**/*.min.js",
     "app/images/dest/**/*",
     "app/**/*.html",

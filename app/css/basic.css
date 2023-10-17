@@ -1018,7 +1018,7 @@ h5.image-title,
   background-image: url("../images/dest/choose-bg.png");
   background-position: top center;
   background-repeat: no-repeat;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .choose .container {
@@ -1064,7 +1064,7 @@ h5.image-title,
   width: 825px;
   height: 1134px;
   position: absolute;
-  top: -25%;
+  top: -15%;
   right: -10%;
 }
 
