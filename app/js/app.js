@@ -141,7 +141,7 @@ const options = {
           id: "3-story-1",
           type: "video",
           length: 0,
-          src: "./stories/1.mp4",
+          src: "./stories/3.mp4",
           link: "",
           linkText: false,
           time: 0,
@@ -182,25 +182,6 @@ const options = {
         },
       ],
     },
-
-    {
-      id: "6-story",
-      photo: "./images/dest/6.png",
-      name: "",
-      time: 0,
-      items: [
-        {
-          id: "6-story-1",
-          type: "video",
-          length: 0,
-          src: "./stories/1.mp4",
-          link: "",
-          linkText: false,
-          time: 0,
-        },
-      ],
-    },
-
     {
       id: "6-story",
       photo: "./images/dest/6.png",
@@ -218,7 +199,6 @@ const options = {
         },
       ],
     },
-
     {
       id: "7-story",
       photo: "./images/dest/7.png",
@@ -236,7 +216,23 @@ const options = {
         },
       ],
     },
-
+    {
+      id: "7-story",
+      photo: "./images/dest/7.png",
+      name: "",
+      time: 0,
+      items: [
+        {
+          id: "7-story-1",
+          type: "video",
+          length: 0,
+          src: "./stories/7.mp4",
+          link: "",
+          linkText: false,
+          time: 0,
+        },
+      ],
+    },
     {
       id: "8-story",
       photo: "./images/dest/8.png",
@@ -254,7 +250,6 @@ const options = {
         },
       ],
     },
-
     {
       id: "9-story",
       photo: "./images/dest/9.png",
@@ -272,61 +267,6 @@ const options = {
         },
       ],
     },
-
-    {
-      id: "9-story",
-      photo: "./images/dest/9.png",
-      name: "",
-      time: 0,
-      items: [
-        {
-          id: "9-story-1",
-          type: "video",
-          length: 0,
-          src: "./stories/9.mp4",
-          link: "",
-          linkText: false,
-          time: 0,
-        },
-      ],
-    },
-
-    {
-      id: "9-story",
-      photo: "./images/dest/9.png",
-      name: "",
-      time: 0,
-      items: [
-        {
-          id: "9-story-1",
-          type: "video",
-          length: 0,
-          src: "./stories/9.mp4",
-          link: "",
-          linkText: false,
-          time: 0,
-        },
-      ],
-    },
-
-    {
-      id: "9-story",
-      photo: "./images/dest/9.png",
-      name: "",
-      time: 0,
-      items: [
-        {
-          id: "9-story-1",
-          type: "video",
-          length: 0,
-          src: "./stories/9.mp4",
-          link: "",
-          linkText: false,
-          time: 0,
-        },
-      ],
-    },
-
     {
       id: "10-story",
       photo: "./images/dest/10.png",
@@ -388,7 +328,7 @@ const options = {
           id: "13-story-1",
           type: "video",
           length: 0,
-          src: "./stories/10.mp4",
+          src: "./stories/13.mp4",
           link: "",
           linkText: false,
           time: 0,
@@ -473,6 +413,23 @@ const options = {
           id: "18-story-1",
           type: "video",
           length: 0,
+          src: "./stories/18.mp4",
+          link: "",
+          linkText: false,
+          time: 0,
+        },
+      ],
+    },
+    {
+      id: "19-story",
+      photo: "./images/dest/19.png",
+      name: "",
+      time: 0,
+      items: [
+        {
+          id: "19-story-1",
+          type: "video",
+          length: 0,
           src: "./stories/19.mp4",
           link: "",
           linkText: false,
@@ -491,23 +448,6 @@ const options = {
           type: "video",
           length: 0,
           src: "./stories/20.mp4",
-          link: "",
-          linkText: false,
-          time: 0,
-        },
-      ],
-    },
-    {
-      id: "21-story",
-      photo: "./images/dest/21.png",
-      name: "",
-      time: 0,
-      items: [
-        {
-          id: "21-story-1",
-          type: "video",
-          length: 0,
-          src: "./stories/21.mp4",
           link: "",
           linkText: false,
           time: 0,
