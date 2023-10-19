@@ -217,23 +217,6 @@ const options = {
       ],
     },
     {
-      id: "7-story",
-      photo: "./images/dest/7.png",
-      name: "",
-      time: 0,
-      items: [
-        {
-          id: "7-story-1",
-          type: "video",
-          length: 0,
-          src: "./stories/7.mp4",
-          link: "",
-          linkText: false,
-          time: 0,
-        },
-      ],
-    },
-    {
       id: "8-story",
       photo: "./images/dest/8.png",
       name: "",
