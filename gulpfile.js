@@ -97,6 +97,7 @@ function buildcopy() {
     "app/fonts/*",
     "app/js/**/*.min.js",
     "app/images/dest/**/*",
+    "app/stories/*",
     "app/**/*.html",
   ], { base: "app" }) // Параметр "base" сохраняет структуру проекта при копировании
     .pipe(dest("dist")); // Выгружаем в папку с финальной сборкой
