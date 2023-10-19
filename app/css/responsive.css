@@ -129,6 +129,10 @@
     margin-bottom: 3.4em;
   }
 
+  .reviews.container {
+    max-width: 100%;
+  }
+
   .story-container {
     height: 63px;
     margin-bottom: 30px;
@@ -149,8 +153,8 @@
   }
 
   .button-next {
-    right: -52px;
-    top: 59%;
+    right: -25px;
+    top: 57%;
   }
 
   .button-prev img {
@@ -158,8 +162,8 @@
   }
 
   .button-prev {
-    left: -22px;
-    top: 65%;
+    left: 3px;
+    top: 64%;
   }
 
   .cases {
@@ -691,4 +695,6 @@
     flex-direction: column;
   }
 
+  .story-container {
+  }
 }
