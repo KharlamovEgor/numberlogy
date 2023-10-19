@@ -657,9 +657,7 @@
 
   .mobile-menu h3.image-title {
     margin-top: -5px;
-
   }
-  
 
   .mobile-menu .button {
     min-width: 255px;
@@ -690,11 +688,11 @@
     right: 10px;
   }
 
-
-.reviews__headings {
+  .reviews__headings {
     flex-direction: column;
   }
 
-  .story-container {
+  .reviews__headings .story-container {
+    max-width: 100%;
   }
 }
