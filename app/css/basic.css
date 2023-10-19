@@ -29,7 +29,15 @@ body {
   height: 100%;
 }
 
+html.mobile-menu-active {
+  overflow: hidden;
+}
+
 .mobile-br {
+  display: none;
+}
+
+.mobile-menu-button, .mobile-menu {
   display: none;
 }
 
@@ -63,8 +71,8 @@ body {
   line-height: 1.25;
 }
 
-.header {
-  position: relative;
+.header .container {
+  position: relative
 }
 
 .header__content {
@@ -181,7 +189,7 @@ body {
   margin-top: -10px;
 }
 
-.image-title :is(h3, h4, h5) {
+:is(h3, h4, h5).image-title, .image-title :is(h3, h4, h5)  {
   position: absolute;
   font-style: normal;
   font-weight: 400;
@@ -190,8 +198,8 @@ body {
 h3.image-title,
 .image-title h3 {
   position: absolute;
-  top: 69.75%;
-  left: 46.65%;
+  top: 63.5%;
+  left: 44.5%;
   font-family: "Berlingske Serif", serif;
   color: var(--light-color);
   font-size: 2.1875rem;
@@ -202,7 +210,7 @@ h3.image-title,
 h4.image-title,
 .image-title h4 {
   position: absolute;
-  top: 66.82%;
+  top: 60%;
   left: 49.8%;
   color: var(--secondary-color);
   font-size: 1.25rem;
@@ -213,8 +221,8 @@ h4.image-title,
 h5.image-title,
 .image-title h5 {
   position: absolute;
-  top: 76.5%;
-  left: 48.1%;
+  top: 71.5%;
+  left: 47%;
   font-family: "Proxima Nova", sans-serif;
   color: var(--secondary-color);
   font-size: 1.25rem;
@@ -346,7 +354,8 @@ h5.image-title,
   font-size: 12.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 0.63;
+  line-height: 0.5;
+  margin-bottom: 20px;
   opacity: 0.2;
   margin-right: -7px;
 }
