@@ -402,6 +402,10 @@
     gap: 12px;
   }
 
+  .result__card span {
+    line-height: 0.7;
+  }
+
   .result__card p {
     font-size: 0.875rem;
   }
