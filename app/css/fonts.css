@@ -1,40 +1,47 @@
 @font-face {
+  font-display: swap;
   font-family: "Berlingske Serif";
   src: url("../fonts/BerlingskeSerif-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Berlingske Serif";
   src: url("../fonts/BerlingskeSerif-Md.ttf");
   font-weight: 500;
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Berlingske Serif";
   src: url("../fonts/BerlingskeSerif-SemiBold.ttf");
   font-weight: 600;
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Berlingske Serif";
   src: url("../fonts/BerlingskeSerif-Bold.ttf");
   font-weight: 700;
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Proxima Nova";
   src: url("../fonts/proximanova_light.otf") format("opentype");
   font-weight: 300;
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Proxima Nova";
   src: url("../fonts/proximanova_regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Proxima Nova";
   src: url("../fonts/proximanova_bold.otf");
   font-weight: 700;

@@ -366,8 +366,8 @@ h5.image-title,
   font-size: 12.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 0.3;
-  margin-bottom: 35px;
+  line-height: 0.6;
+  margin-bottom: 10px;
   opacity: 0.2;
   margin-right: -7px;
 }
@@ -654,11 +654,10 @@ h5.image-title,
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.21; /* 38.72px */
+  line-height: 0.5; /* 38.72px */
 }
 
 .result__card span {
-  margin-bottom: -9px;
   margin-right: 2px;
   opacity: 0.4;
 }
