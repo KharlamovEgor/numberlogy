@@ -64,7 +64,7 @@ function styles() {
     .pipe(browserSync.stream()); // Сделаем инъекцию в браузер
 }
 
-async function images() {
+function images() {
   imagecomp(
     "app/images/*", // Берём все изображения из папки источника
     "app/images/dest/", // Выгружаем оптимизированные изображения в папку назначения
