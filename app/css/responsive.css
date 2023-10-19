@@ -701,3 +701,25 @@
     max-width: 100%;
   }
 }
+
+@media (min-width: 1000px) {
+  .stories.carousel {
+    overflow: scroll !important;
+  }
+
+  .stories.carousel::-webkit-scrollbar {
+    display: block;
+    height: 5px;
+    background: transparent;
+  }
+
+  .stories.carousel::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 5px;
+  }
+
+  .reviews__headings .story-container {
+    max-width: 600px;
+  }
+
+}
