@@ -700,6 +700,30 @@
   .reviews__headings .story-container {
     max-width: 100%;
   }
+  .back {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    left: auto !important;
+    color: transparent !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #fff !important;
+    border-radius: 100px !important;
+    display: flex !important;
+  }
+
+  .back::after {
+    position: absolute;
+    left: 9px;
+    bottom: 4px;
+    content: url("../images/dest/close-story.svg");
+  }
+
+
+  .item-preview {
+    margin-left: 0 !important;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -721,5 +745,4 @@
   .reviews__headings .story-container {
     max-width: 600px;
   }
-
 }
