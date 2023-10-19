@@ -73,3 +73,24 @@ button1.addEventListener("click", clickHandler(1));
 button2.addEventListener("click", clickHandler(2));
 button3.addEventListener("click", clickHandler(3));
 button4.addEventListener("click", clickHandler(4));
+
+const mobileMenu = document.querySelector(".mobile-menu");
+const mobileMenuButton = document.querySelector(".mobile-menu-button");
+const closeMobileMenuButton = document.querySelector(
+  ".mobile-menu__close-button",
+);
+
+mobileMenuButton.addEventListener(
+  "click",
+  () => {
+    mobileMenu.classList.add("active");
+    document.documentElement.classList.add("mobile-menu-active");
+  },
+);
+closeMobileMenuButton.addEventListener(
+  "click",
+  () => {
+    mobileMenu.classList.remove("active");
+    document.documentElement.classList.remove("mobile-menu-active");
+  },
+);
