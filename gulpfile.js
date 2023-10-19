@@ -33,6 +33,7 @@ function browsersync() {
 
 function scripts() {
   return src([ // Берём файлы из источников
+    "node_modules/zuck.js/dist/zuck.js",
     "node_modules/accordion-js/dist/accordion.js",
     "node_modules/swiper/swiper-bundle.js", // Пример подключения библиотеки
     "app/js/app.js", // Пользовательские скрипты, использующие библиотеку, должны быть подключены в конце
@@ -46,6 +47,8 @@ function scripts() {
 function styles() {
   return src([
     "app/css/basic.css",
+    "node_modules/zuck.js/dist/zuck.css",
+    "node_modules/zuck.js/dist/skins/snapgram.css",
     "node_modules/accordion-js/dist/accordion.css",
     "node_modules/swiper/swiper-bundle.css",
     "app/css/fonts.css",

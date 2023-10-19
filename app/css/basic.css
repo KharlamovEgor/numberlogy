@@ -37,7 +37,8 @@ html.mobile-menu-active {
   display: none;
 }
 
-.mobile-menu-button, .mobile-menu {
+.mobile-menu-button,
+.mobile-menu {
   display: none;
 }
 
@@ -72,7 +73,7 @@ html.mobile-menu-active {
 }
 
 .header .container {
-  position: relative
+  position: relative;
 }
 
 .header__content {
@@ -189,7 +190,8 @@ html.mobile-menu-active {
   margin-top: -10px;
 }
 
-:is(h3, h4, h5).image-title, .image-title :is(h3, h4, h5)  {
+:is(h3, h4, h5).image-title,
+.image-title :is(h3, h4, h5) {
   position: absolute;
   font-style: normal;
   font-weight: 400;
@@ -275,6 +277,16 @@ h5.image-title,
 .reviews .heading {
   margin-bottom: 1.1em;
 }
+
+.reviews__headings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__headings .story-container {
+  max-width: 400px;
+}
+
 
 .main-content {
   overflow: hidden;
@@ -1033,7 +1045,6 @@ h5.image-title,
 .choose .container {
   display: flex;
   position: relative;
-  
 }
 
 .choose__content {
@@ -1271,4 +1282,35 @@ h5.image-title,
   position: absolute;
   right: -2%;
   bottom: 3%;
+}
+
+.time {
+  display: none !important;
+}
+
+.info {
+  display: none !important;
+}
+
+.item-preview img {
+  pointer-events: none !important;
+}
+
+.stories.snapgram .story > .item-link > .item-preview {
+  background: none !important;
+}
+
+.stories.snapgram .story > .item-link > .item-preview img {
+  border: none !important;
+}
+
+.stories__item {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
 }

@@ -681,4 +681,10 @@
     top: 10px;
     right: 10px;
   }
+
+
+.reviews__headings {
+    flex-direction: column;
+  }
+
 }
