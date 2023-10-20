@@ -725,9 +725,35 @@
   }
 }
 
-@media (max-width: 1399px) {
-}
+@media (min-width: 800px) and (max-width: 1399px) {
+  .heading-for-help {
+    margin-top: 200px;
+  }
+  .result.container {
+    margin-top: -40px;
+    
+  }
+  .faq .heading.heading_dark {
+    max-width: 600px !important;
+  }
 
+  .autor {
+    width: 1140px !important;
+    aspect-ratio: 1390 / 1013;
+    height: auto;
+    background: url('../images/dest/fake.png');
+    border: none;
+    background-size: contain;
+  }
+
+  .autor * {
+    display: none !important;
+  }
+
+  .result {
+    margin-bottom: 300px;
+  }
+}
 
 @media (min-width: 800px) {
   .stories.carousel {
