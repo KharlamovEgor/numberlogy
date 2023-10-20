@@ -96,6 +96,17 @@ closeMobileMenuButton.addEventListener(
 );
 
 const options = {
+  rtl: false,
+  skin: "snapgram",
+  avatars: true,
+  backButton: true,
+  backNative: false,
+  paginationArrows: false,
+  previousTap: true,
+  autoFullScreen: false,
+  openEffect: true,
+  cubeEffect: false,
+  list: false,
   stories: [
     {
       id: "1-story",
@@ -544,4 +555,3 @@ const options = {
 
 const element = document.querySelector("#stories");
 const stories = Zuck(element, options);
-
