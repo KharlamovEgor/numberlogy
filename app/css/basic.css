@@ -78,8 +78,8 @@ html.mobile-menu-active {
 
 .header__content {
   display: grid;
-  grid-template-columns: 1fr 282px;
-  column-gap: 388px;
+  grid-template-columns: 500px 282px;
+  justify-content: space-between;
 }
 
 .main-heading {

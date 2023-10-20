@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 799px) {
   body {
     overflow-x: hidden;
   }
@@ -720,13 +720,18 @@
     content: url("../images/dest/close-story.svg");
   }
 
-
   .item-preview {
     margin-left: 0 !important;
   }
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1399px) {
+  .autor {
+    width: 1180px !important;
+  }
+
+
+@media (min-width: 800px) {
   .stories.carousel {
     overflow: scroll !important;
   }
